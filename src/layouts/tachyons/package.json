@@ -1,0 +1,84 @@
+{
+  "_from": "tachyons@4.10.0",
+  "_id": "tachyons@4.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-50KOizE6V9QB7LdQqVLsLw17dnBzxonC2JWhmbu8xnQYUoyqV+Gcx678NwVM+O8A7jljobtC6QMl/hc8UZOzAA==",
+  "_location": "/tachyons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "tachyons@4.10.0",
+    "name": "tachyons",
+    "escapedName": "tachyons",
+    "rawSpec": "4.10.0",
+    "saveSpec": null,
+    "fetchSpec": "4.10.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/tachyons/-/tachyons-4.10.0.tgz",
+  "_shasum": "87fa088e88d9759983f2a1b0efd01d767bbef87b",
+  "_spec": "tachyons@4.10.0",
+  "_where": "/Users/e102073/portfolio-test",
+  "author": {
+    "name": "mrmrs"
+  },
+  "bugs": {
+    "url": "https://github.com/tachyons-css/tachyons/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "Functional CSS for humans",
+  "devDependencies": {
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^8.0.0",
+    "tachyons-cli": "^1.0.11",
+    "tachyons-modules": "^1.1.10",
+    "watch": "^1.0.2"
+  },
+  "files": [
+    "css",
+    "src"
+  ],
+  "homepage": "https://github.com/tachyons-css/tachyons#readme",
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
+  "license": "MIT",
+  "main": "css/tachyons.css",
+  "name": "tachyons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tachyons-css/tachyons.git"
+  },
+  "scripts": {
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
+    "build:watch": "watch \"npm run build\" ./src/",
+    "mutations": "immutable-css src/tachyons.css --strict",
+    "start": "npm run build:watch"
+  },
+  "style": "css/tachyons.min.css",
+  "version": "4.10.0"
+}
