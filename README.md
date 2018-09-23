@@ -1,4 +1,5 @@
 # gatsby-starter-tachyons
+Updated to Gatsby 2.0.
 
 A simple integration using [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) and [Tachyons](https://github.com/tachyons-css/tachyons/) for CSS
 
@@ -16,8 +17,6 @@ Then you can go to the newly created folder and run
 Your newly built site is now running on your localhost, and you can start building it. 
 
 Make sure you read the documentation on both Gatsby and Tachyons. And have fun!
-
-This starter does not use the Gatsby 2.0 yet.
 
 
 <!-- Markdown snippet -->
